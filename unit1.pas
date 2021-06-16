@@ -431,10 +431,12 @@ begin
   Button30.Visible := false;
 end;
 
+
 procedure TForm1.Button12Click(Sender: TObject);
 begin
   Edit1.Clear;
 end;
+
 
 procedure TForm1.Button13Click(Sender: TObject);
 begin
@@ -443,6 +445,7 @@ begin
   b:=0;
   c:=0;
 end;
+
 
 procedure TForm1.Button14Click(Sender: TObject);
 begin
@@ -462,6 +465,7 @@ begin
   end
 end;
 
+
 procedure TForm1.Button15Click(Sender: TObject);
 var x,i,n:real;
 begin
@@ -475,6 +479,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button16Click(Sender: TObject);
 begin
   try
@@ -487,6 +492,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button17Click(Sender: TObject);
 begin
   try
@@ -498,6 +504,7 @@ begin
       on e: exception do ShowMessage('Error!');
   end;
 end;
+
 
 procedure TForm1.Button18Click(Sender: TObject);
 begin
@@ -550,6 +557,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button22Click(Sender: TObject);
 begin
   try
@@ -561,6 +569,7 @@ begin
       on e: exception do ShowMessage('Error!');
   end;
 end;
+
 
 procedure TForm1.Button23Click(Sender: TObject);
 var n,i,s: integer;
@@ -575,6 +584,7 @@ begin
       on e: exception do ShowMessage('Error!');
   end;
 end;
+
 
 procedure TForm1.Button24Click(Sender: TObject);
 var
@@ -595,6 +605,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button25Click(Sender: TObject);
 var i: integer;
 begin
@@ -606,6 +617,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button26Click(Sender: TObject);
 var i: integer;
 begin
@@ -616,6 +628,7 @@ begin
       on e: exception do ShowMessage('Error!');
   end;
 end;
+
 
 procedure TForm1.Button27Click(Sender: TObject);
 var i: integer;
