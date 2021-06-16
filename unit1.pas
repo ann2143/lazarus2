@@ -333,10 +333,6 @@ begin
   Image11.Hide;
 end;
 
-
-
-
-
 procedure TForm1.Tema2Click(Sender: TObject);
 begin
   Image1.Picture.LoadFromFile('images/bg2.jpg');
@@ -515,6 +511,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button19Click(Sender: TObject);
 begin
   try
@@ -527,6 +524,7 @@ begin
   end;
 end;
 
+
 procedure TForm1.Button20Click(Sender: TObject);
 begin
   try
@@ -538,6 +536,7 @@ begin
       on e: exception do ShowMessage('Error!');
   end;
 end;
+
 
 procedure TForm1.Button21Click(Sender: TObject);
 begin
