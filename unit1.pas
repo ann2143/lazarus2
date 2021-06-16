@@ -333,6 +333,10 @@ begin
   Image11.Hide;
 end;
 
+
+
+
+
 procedure TForm1.Tema2Click(Sender: TObject);
 begin
   Image1.Picture.LoadFromFile('images/bg2.jpg');

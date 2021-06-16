@@ -19,6 +19,10 @@ type
 
   end;
 
+
+
+
+
 var
   Form2: TForm2;
 
